@@ -1,0 +1,36 @@
+@import 'mixins';
+@import 'navigation';
+@import 'showcase';
+@import 'mediaQueries';
+@import 'about';
+@import'projects';
+@import 'skills';
+@import 'testimonials';
+@import 'contact';
+@import 'footer';
+
+body{
+    font-family: 'Poppins', sans-serif;
+    // background: rgb(243, 239, 239);
+    background: rgb(233, 230, 230);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width:500px){
+    *{
+        h1{
+            font-size: 1rem;
+        }
+    }
+        
+}
+

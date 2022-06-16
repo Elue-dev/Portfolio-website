@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#008080">
+    <meta name="msap-plication-navbutton-color" content="#008080">
+    <meta name = "apple-mobile-web-app-capable" content="yes">
+    <meta name = "apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="./styles//main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/72687fe64b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <title> Elue's Portfolio Site</title>
+</head>
+<body>
+    <section class="navigation">
+        <!-- <div id="mode"><p><i class="far fa-sun"></i></p></div> -->
+        <div class="nav">
+            <div class="logo" data-aos="zoom-out" >Elue-<span>Dev</span></div>
+        <div class="openmenu" data-aos="zoom-out">
+            <i class="fa fa-bars"></i>
+        </div>
+        
+        <ul class="mainmenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="closemenu">
+                <i class="fa fa-times"></i>
+            </div>
+        </ul>
+    </div>
+
+    <section class="showcase">
+        <div class="showcase-text" data-aos="zoom-in" >
+            <p class="text1">Hello, my name is</p>
+            <p class="text2">Elue Wisdom Dubem</p>
+            <p class="text3">And i'm a <span class="typing"></span></p>
+        </div> 
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h1>About me</h1>
+        </div>
+
+        <div class="info">
+            <div class="info-img">
+                <img src="me2.jpg" alt="">
+            </div>
+
+            <div class="info-text" data-aos="fade-left">
+                <h1>I'm Elue Wisdom, I'm a <span class="typing-2"></span></h1>
+                <p> Passionte Frontend Developer who is always ready to learn and work with people. I have
+                    used my skills to build few projects and technologies I have worked with include: HTML, CSS, SASS,
+                    JavaScript, jQuery and React JS. 
+                    <br><br>
+                    I have turned UI designs into functional responsive websites using the skills i have learnt.
+                    <br><br>
+                    I am also into Social Media Marketing</p>
+            </div>
+        </div>
+    </section>
+
+<section class="services" id="services"><br><br>
+        <h1>Some Projects</h1>
+        <div class="services-row">
+            <div class="row" data-aos="flip-up">
+               <h3>Public Health Blog</h3>
+               <img src="wwb.png" alt="" class="health-blog">
+               <p class="health">A public health platform aimed at sharing common diseases and preventive tips.
+               </p>
+               <a href="https://wisdomsworld.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+                <div class="row" data-aos="flip-up">
+                    <h3>AirBnB like clone</h3>
+                        <img src="abnb img.png" alt="" class="health-blog">
+                    <p class="health">AirBnB like web app built with React and Redux. JSON Web Token (from a backend dev) for user verification.
+                    </a>
+                    </p>
+                    <a href="https://abnb.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+
+            <div class="row" data-aos="flip-up">
+                <h3>React Shopping Cart</h3>
+                <img src="shophub.png" alt="" class="health-blog">
+                <p class="health">A simple react shopping cart built using Context for state management with useReducer hooks.
+                    Data was fetched from <a href='https://fakestoreapi.com'>fakestoreapi.com</a>
+                </p>
+                <a href="https://shophubapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div> 
+
+             <div class="row" data-aos="flip-up">
+                <h3>Number Guesser Game</h3>
+                <img src="numguess.png" alt="" class="health-blog">
+                <p class="health">A Vanilla JavaScript application where random numbers are guessed, until the number
+                    matches the programmed number. Full details in the application.
+                </p>
+                <a href="https://jsnumberguessergame.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-up">
+                <h3>GPT-3 Site</h3>
+                <img src="gpt3.png" alt="" class="health-blog">
+                <p class="health">A very cool React website with common react method eg props, state etc
+                </p>
+                <a href="https://gpt3site.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-up">
+                <h3>Movie Searching App</h3>
+                    <img src="omdb.png" alt="" class="health-blog">
+                <p class="health">React application where any movie can be searched.
+                </p>
+                <a href="https://omdbmovieapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+            <div class="row" data-aos="flip-down">
+                <h3>Resort Landing Page</h3>
+                <img src="boonshow.png" alt="" class="health-blog">
+                <p>A travel resort landing page, showcasing awesome resorts where people can come to relax or have vacations.</p>
+                     <a href="https://boonresortblog.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-down">
+                <h3>Rick and Morty App</h3>
+                <img src="ricknmorty.png" alt="" class="health-blog">
+                <p>Rick and Morty App built with React and GraphQL</p>
+                     <a href="https://ricknmortyyapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-up">
+                <h3>Old Microsoft Homepage Clone</h3>
+                <img src="micro.png" alt="" class="health-blog">
+                <p>A clone of the old microsoft Homepage website</p>
+                     <a href="https://oldmicrosoftclone.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-down">
+                <h3>E-commerce Site</h3>
+                <img src="redstore.png" alt="" class="health-blog">
+                <p class="health">Frontend of a mini e-commerce site. (HTML, CSS, Vanilla JavaScript)
+                </p>
+                <a href="https://redstoresite.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-up">
+                <h3>Fetch API Project</h3>
+                <img src="cn.png" alt="" class="health-blog">
+                <p class="health">In this application, we fetched jokes from an API.
+                </p>
+                <a href="https://fetchapijokes.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+
+             <div class="row" data-aos="flip-up">
+                <h3>Mini Movie Application</h3>
+                <img src="movieapp.png" alt="" class="health-blog">
+                <p class="health">React App, data was fetched from a REST API 
+                    and the aim of this app is to showcase the power of Dynamic URL's with react router.
+                </p>
+                <a href="https://minimovies.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-up">
+                <h3>Authentication system with React & Firebase</h3>
+                <img src="auth.png" alt="" class="health-blog">
+                <p class="health">Simple app showing react authentication system with firebase, which includes sign up, log in, google OAuth, Forgot password features.
+                </p>
+                <a href="https://rxtfirebaseauth.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+             <div class="row" data-aos="flip-up">
+                <h3>Recipe directory app with React</h3>
+                <img src="recipeapp.png" alt="" class="health-blog">
+                <p class="health">Simple app showing a recipe directory where one can add recipes only if they are authenticated/have an account. Other nice features added,
+                </p>
+                <a href="https://recipedirapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+             </div>
+
+    <!-- <section class="services" id="services"><br><br>
+        <h1>Some Projects</h1>
+        <div class="owl-carousel owl-theme services-row">
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>Public Health Blog</h3>
+                    <div class="owl-img">
+                        <img src="wwb.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">A public health platform aimed at sharing common diseases and preventive tips that help you
+                        avoid such diseases. Also helps bring to our awareness, important health practices people commonly ignore.
+                    </p>
+                    <a href="https://wisdomsworld.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>React Shopping Cart</h3>
+                    <div class="owl-img">
+                        <img src="shophub.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">A simple react shopping cart built using Context for state management with useReducer hooks.
+                        Data was fetched from <a href='https://fakestoreapi.com'>fakestoreapi.com</a>
+                    </p>
+                    <a href="https://shophubapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>AirBnB like clone</h3>
+                    <div class="owl-img">
+                        <img src="abnb img.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">AirBnB like application built with React and Redux. Login and SignUp verification was handled with
+                         JSON Web Token(JWT) from a backend developer was used for verification and Redux was used to implement all the actions.
+                          The API endpoints was also provided by the same developer
+                    </a>
+                    </p>
+                    <a href="https://abnb.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-down">
+                    <h3>Resort Landing page</h3>
+                    <div class="owl-img">
+                        <img src="boonshow.png" alt="" class="resort-blog">
+                    </div>
+                    <p>A travel resort landing page.</p>
+                         <a href="https://boonresortblog.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>Old Microsoft Homepage Clone</h3>
+                     <div class="owl-img">
+                        <img src="micro.png" alt="">
+                     </div>
+                    <p>A clone of the old microsoft Homepage website</p>
+                         <a href="https://oldmicrosoftclone.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-down">
+                    <h3>E-commerce Site</h3>
+                    <div class="owl-img">
+                        <img src="redstore.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">Frontend of a mini e-commerce site.
+                    </p>
+                    <a href="https://redstoreapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>Movie Searching App</h3>
+                    <div class="owl-img">
+                        <img src="omdb.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">React application where any movie can be searched.
+                    </p>
+                    <a href="https://omdbmovieapp.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>Number Guesser Game</h3>
+                    <div class="owl-img">
+                        <img src="numguess.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">A Vanilla JavaScript application
+                    </p>
+                    <a href="https://jsnumberguessergame.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>Fetch API Project</h3>
+                    <div class="owl-img">
+                        <img src="cn.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">In this application, we fetched jokes from an API.
+                    </p>
+                    <a href="https://fetchapijokes.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>Mini Movie Application</h3>
+                    <div class="owl-img">
+                        <img src="movieapp.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">React App, data was fetched from a REST API and the aim of this app is to showcase the power of Dynamic URL's with react router.
+                    </p>
+                    <a href="https://minimovies.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+            <div class="item">
+                <div class="row" data-aos="flip-up">
+                    <h3>GPT-3 Site</h3>
+                    <div class="owl-img">
+                        <img src="gpt3.png" alt="" class="health-blog">
+                    </div>
+                    <p class="health">A very cool React website with common react method eg props, state etc
+                    </p>
+                    <a href="https://gpt3site.netlify.app" class="btn-blog">Go Live <i class="fas fa-external-link-alt"></i></a>
+                 </div>
+            </div>
+        </div>
+    </section> -->
+            
+        </div><br>
+    </section>
+
+    <section class="skills" id="skills">
+        <h1>My skills</h1>
+        <div class="skills-row">
+            <div class="skills-info" data-aos="fade-left">
+            <h2>My creative skills & experiences</h2>
+            <p>I have worked with these technologies and maximized them in building beautiful UI of websites and responsive for all devices</p>
+        </div>
+
+        <div class="languages" data-aos="fade-right">
+            <div class="lang-row">
+             <p>HTML</p>
+             <p>90%</p>
+            </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:90% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>CSS</p>
+                <p>80%</p>
+               </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:80% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>JavaScript</p>
+                <p>65%</p>
+               </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:65% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>SASS</p>
+                <p>70%</p>
+               </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:70% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>Bootstrap</p>
+                <p>65%</p>
+             </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:65% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>React JS</p>
+                <p>70%</p>
+            </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:70% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>Next JS</p>
+                <p>70%</p>
+            </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:70% ;"></div>
+            </span>
+            </div>
+
+            <div class="lang-row">
+                <p>Redux</p>
+                <p>60%</p>
+            </div>
+            <div class="percent">
+                <span class="percentage">
+                  <div style="width:60% ;"></div>
+            </span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="testimonials" id="testimonials"><br><br>
+        <h1>Testimonials</h1>
+        <div class="testimonials-row">
+            <div class="row" data-aos="fade-up-left">
+                <img src="ruona.jfif" alt="">
+               <h3>Onothoja Ogheneruona (Product Manager at Mecho) </h3>
+               <p><i class="fas fa-quote-left"></i> Elue Wisdom is willing to learn and is passionate about this job. I like his willingness to work amongst most. </p>
+            </div>
+
+            <div class="row" data-aos="fade-up-right">
+                <img src="smear.jfif" alt="">
+                <h3>Otun Ridwan (Backend Engineer at Bamboo)</h3>
+                <p><i class="fas fa-quote-left"></i> He takes this work serious, and never fails to ask questions to be sure on what to do. Top guy to work with</p>
+             </div>
+        </div><br>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Contact me</h1>
+        <div class="contact-row">
+        <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p>Get in touch with me and let us work together.</p>
+            <div class="flex-contact">
+                <div class="f-info">
+                    <i class="fas fa-user-alt"></i>
+                  <div class="flex">
+                    <p>Elue Wisdom</p>
+                 </div>
+                </div>
+
+                <div class="f-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                 <div class="flex">
+                    <p>Lagos, Nigeria</p>
+                 </div>
+                </div>
+
+                <div class="f-info">
+                    <i class="fas fa-envelope"></i>
+                  <div class="flex">
+                    <p>eluewisdom@gmail.com</p>
+                 </div>
+                </div>
+
+                <div class="f-info">
+                    <i class="fab fa-github"></i> 
+                  <div class="flex">
+                    <a href="https://github.com/Elue-dev">github.com/Elue-dev</a>
+                 </div>
+                </div>
+                <br>
+
+                <div class="f-info">
+                    <i class="fas fa-file"></i> 
+                  <div class="flex">
+                    <a href="https://eluedevresume.netlify.app">Resume</a>
+                 </div>
+                </div>
+            </div>
+            </div>
+
+        <div class="contact-form">
+            <h3>Message me</h3>
+            <div class="insert"></div>
+            <form method ="POST" data-netlify= "true">
+            <div class="row">
+                
+                <div class="form-group">
+                    <input name="name" type="name" class="name"  placeholder="Name"><br>
+                </div>
+    
+                <div class="form-group">
+                    <input name="email" type="email" class="email"  placeholder="Email"><br>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input name="name" type="name" class="subject"  placeholder="Subject"><br>
+            </div>
+
+            <div class="form-group">
+                <textarea name="message" id="message" rows="8"  placeholder="Message"></textarea><br>
+            </div>
+            <input type="submit" value="Send message" class="submit"></input>
+
+            </form>
+        </div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+      <p> Developed by Elue Wisdom &copy; 2021 </p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:400,
+            duration:500
+        });
+      </script>
+
+      <script type="text/javascript">
+          $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+      </script>
+</body>
+</html>

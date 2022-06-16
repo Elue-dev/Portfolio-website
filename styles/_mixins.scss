@@ -1,0 +1,38 @@
+// $siteColor: rgb(158, 18, 46);
+$siteColor: teal;
+$light: #fff;
+$dark: #000;
+
+@mixin flexBox($justify){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin mQ ($respond){
+    @media screen and (max-width: $respond){
+        @content;
+    }
+}
+
+@mixin textCenter {
+    text-align: center;
+}
+
+@mixin button(){
+    background: $siteColor;
+    color: $light;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: .2s ease;
+    border: none;
+    border-radius: .5rem;
+    &:hover{
+       background: lighten($color: $siteColor, $amount: 10);
+    }
+}
+
+@mixin grid(){
+    display: grid;
+}

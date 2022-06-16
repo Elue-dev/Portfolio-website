@@ -1,0 +1,94 @@
+.skills{
+    h1{
+        @include textCenter;
+        margin-top: 3rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 6.3rem;
+            height: 0.19rem;
+            background: $siteColor;
+            transform: translateX(-50%);
+        }
+    }
+    .skills-row{
+        @include flexBox(space-between);
+        padding: 0 3rem;
+        @include mQ(48rem){
+            flex-direction: column;
+        }
+        .skills-info{
+            flex-basis: 70%;
+            max-width: 700px;
+            overflow: hidden;
+            @include mQ(31.25rem){
+                min-width: 345px;
+            }
+            h2{
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+            a{
+                @include button();
+                &:hover{
+                    font-weight: 700;
+                }
+            }
+        }
+        .languages{
+            flex-basis: 30%;
+            @include mQ(768px){
+                margin-top: 2rem;
+                max-width: 333px;
+            }
+            }
+        }
+    }
+
+.languages{
+    .percent{
+        position: relative;
+        height: 0.3rem;
+        width: 400px;
+        background-color: gray;
+        display: block;
+        margin: 10px 0px;
+        border-radius: 0.3rem;
+        @include mQ(31.25rem){
+            width: 349px;
+        }
+
+        div{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: $siteColor;
+        }
+    }
+        .lang-row{
+            display: flex;
+            justify-content: space-between;
+    }
+}
+
+
+
+@media (max-width:500px){
+    .skills h1 {
+        font-size: 1.5rem;
+    }
+
+    .skills .skills-row .skills-info h2 {
+        font-size: 1.2rem;
+    } 
+}

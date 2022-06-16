@@ -1,0 +1,88 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    @include flexBox(space-between);
+    padding: 0.3rem 3rem;
+    z-index: 100;
+    transition: .5s ease;
+    .logo{
+        color: $light;
+        font-size: 1.5rem;
+        font-weight: 700;
+        @include mQ(31.25rem){
+            font-size: 1.3rem;
+        }
+    }
+    ul{
+        li{
+            display: inline-block;
+            list-style: none;
+            margin: 0 0.5rem;
+            a{
+                color: $light;
+                text-decoration: none;
+                transition: .2s ease;
+                &:hover{
+                    color: $siteColor;
+                }
+            }
+        }
+    }
+    span{
+        color: $siteColor;
+        font-weight: 700;
+        font-size: 1.5rem;
+        @include mQ(31.25rem){
+            font-size: 1.3rem ;
+        }
+        @include mQ(48rem){
+            font-size: 1.35rem;
+        }
+    }
+}
+
+.nav.sticky{
+    background: $siteColor;
+}
+
+.nav.sticky .logo span{
+    color: $light;
+}
+
+.nav.sticky a{
+    &:hover{
+        color: $siteColor;
+    }
+}
+
+.openmenu i,
+.closemenu i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+    color: $light;
+    color: $siteColor;
+}
+
+.nav.sticky .openmenu i{
+    color: $light;
+}
+
+.nav.sticky .closemenu i{
+    color: $siteColor;
+}
+
+// #mode{
+//     color: #fff;
+//     cursor: pointer;
+//     position: absolute;
+//     top: .7rem;
+//     left: 45rem;
+// }
+
+// .toggle{
+//     background: #333;
+//     color: #fff;
+// }
+
